@@ -15,7 +15,7 @@ public class chatbot {
         } else if (userInput.contains("bye")) {
             return "Goodbye! Have a great day!";
         } else if (userInput.contains("what is your favorite color")) {
-            return "I don't have personal preferences, but I hear blue is a popular color!";
+            return "I'm just a chatbot, I don't have personal preferences, but I hear blue is a popular color!";
         } else if (userInput.contains("what is the time now")) {
             return "The current time is " + LocalTime.now().withNano(0).toString() + ".";
         }else {
